@@ -1,0 +1,39 @@
+.Insta-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+
+}
+.text1{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card2{
+    height: 6vh;
+    margin-top: 2%;
+}
+.signupWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.signupCard{
+    width: 25vw;
+    margin-top: 5%;
+}
+
+@media only screen and(max-width:620px){
+    .signupCard{
+        width: 60%;
+    }
+    .Insta-logo{
+        width: 30%;
+    }
+
+}

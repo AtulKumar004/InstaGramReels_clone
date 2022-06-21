@@ -1,0 +1,57 @@
+.Insta-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+
+}
+.text1{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text2{
+    
+    text-align: center;
+
+}
+
+.card2{
+    height: 6vh;
+    margin-top: 2%;
+}
+.LoginWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.LoginCard{
+    width: 27vw;
+    margin-top: 10%;
+}
+.imgcard{
+    margin-top: 8vh;
+    height: 590px;
+    width: 441px;
+    position: relative;
+}
+.car{
+    height: 423px;
+    width: 241px;
+    position: absolute; 
+    left: 143px;
+    top: 93px;
+}
+
+@media only screen and(max-width:620px){
+    .signupCard{
+        width: 60%;
+    }
+    .Insta-logo{
+        width: 30%;
+    }
+
+}

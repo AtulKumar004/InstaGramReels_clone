@@ -1,0 +1,11 @@
+.main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.upload_btn{
+    width: 8rem;
+    height: 2.5rem;
+}
